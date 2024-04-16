@@ -1,1 +1,1 @@
-pytest --headed -o cache_dir=/cache --slowmo 2000
+pytest --headed -o cache_dir=/cache 
