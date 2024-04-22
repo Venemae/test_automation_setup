@@ -4,7 +4,7 @@ USER root
 
 RUN apt-get update && apt-get install -yy nano curl
     
-WORKDIR /test
+WORKDIR /card_deck
 
 ENV PYTHONDONTWRITEBYTECODE 1 \
     PYTHONUNBUFFERED 1

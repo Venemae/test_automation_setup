@@ -1,3 +1,2 @@
-echo iets vergeten
+python3 card_deck.py
 
-pytest --headed -o cache_dir=/cache 
