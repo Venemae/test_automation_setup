@@ -36,6 +36,7 @@ for card_symbol in card_symbols:
         card_color = color_config[card_symbol]
 
         card_side = sides[random.randint(0, 1)]
+        card_side = "up"
 
         print(f"adding: {card_symbol} {card_value} with color: {card_color} and side is: {card_side}")
 
