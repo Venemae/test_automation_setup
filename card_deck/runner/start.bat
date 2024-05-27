@@ -1,3 +1,1 @@
-wsl docker run --rm --name runner^
-    -v "$PWD"/mount:/card_deck ^
-    runner:card_deck
+wsl docker run --rm -ti --name runner -v "$PWD"/mount:/card_deck runner:card_deck
